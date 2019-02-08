@@ -1,0 +1,238 @@
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  transition: .3s;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header-top {
+  background-color: #272727;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__item {
+  font-size: 14px;
+  color: #cccaca;
+  line-height: 40px;
+  padding-left: 35px;
+  text-decoration: none;
+}
+
+.contacts__item:hover {
+  color: #ffffff;
+}
+
+.contacts__item-phone {
+  background: url('../img/phone-icon.png') no-repeat 0% 48%;
+  background-size: 8%;
+  font-size: 13px;
+}
+
+.contacts__item-mail {
+  background: url('../img/mail-icon.png') no-repeat 0% 50%;
+  background-size: 14%;
+}
+
+.contacts__item-insta {
+  background: url('../img/insta-icon.png') no-repeat 0% 50%;
+  background-size: 15%;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav__logo {
+  float: left;
+  color: #ec4040;
+  line-height: 83px;
+  font-size: 32px;
+}
+
+.nav__link-section {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-left: 115px;
+  line-height: 93px;
+  font-size: 13px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav__link-active,
+.nav__link:hover {
+  color: #ec4040;
+}
+
+.main__preview {
+  background-color: #272727;
+}
+
+.main__company-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__info-section {
+  padding-top: 80px;
+}
+
+.main__image-section {
+  background: url('../img/lady.png') no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 340px;
+  margin: 25px 0;
+}
+
+.main__company-name {
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main__signature {
+  margin-top: 5px;
+  margin-left: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main__paragraph {
+  color: #ffffff;
+  margin-top: 80px;
+  font-size: 24px;
+}
+
+.main__discount-text {
+  margin-top: 80px;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 24px;
+  padding-left: 65px;
+  color: #ffffff;
+  position: relative;
+}
+
+.main__discount-text::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: url('../img/discount-icon.png') no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 81px;
+}
+
+.categories__title {
+  margin-top: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-bottom: 85px;
+}
+
+.categories__title::before {
+  position: absolute;
+  bottom: -7px;
+  left: 455px;
+  content: '';
+  width: 89px;
+  height: 2px;
+  background-color: #cc0000;
+}
+
+.categories__title::after {
+  position: absolute;
+  bottom: -11px;
+  left: 472px;
+  content: '';
+  width: 55px;
+  height: 2px;
+  background-color: #cc0000;
+}
+
+.goods-preview {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.goods-preview__product-name {
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.goods-preview__product-bg {
+  background: url('../img/preview-photo.png') no-repeat center;
+  background-size: 52%;
+}
+
+.goods-preview_size_small {
+  width: 60%;
+}
+
+.goods-preview__indent {
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #272727;
+  padding: 50px 0;
+}
+
+.company-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-info__title {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.company-info__paragraph {
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.contacts__footer-contacts {
+  margin-top: 80px;
+}
+
+.contacts_disposition_middle {
+  margin-right: 40px;
+}
