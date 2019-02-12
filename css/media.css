@@ -113,6 +113,9 @@
   .contacts__item-mail {
     margin: 0;
   }
+  .categories__map {
+    width:100%;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -215,7 +218,11 @@
   .company-info {
     flex-direction: column;
   }
-  .contacts__item-mail {
+  .contacts__item-mail,
+  .contacts__item-insta {
     margin: 0;
+  }
+  .categories__map {
+    width:100%;
   }
 }
