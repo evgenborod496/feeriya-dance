@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/media.css">
   <script src="js/script.js" defer></script>
 </head>
 
@@ -24,12 +25,13 @@
 
     <nav class="nav container clearfix">
       <span class="nav__logo">feeriya</span>
-      <div class="nav__link-section">
+      <div class="nav__link-section nav_hidden">
         <a href="#" class="nav__link nav__link-active">главная</a>
-        <a href="#" class="nav__link">категории</a>
+        <a href="#categories" class="nav__link">категории</a>
         <a href="#" class="nav__link">распродажа</a>
-        <a href="#" class="nav__link">контакты</a>
+        <a href="#contacts" class="nav__link">контакты</a>
       </div>
+      <div class="nav__menu"></div>
     </nav>
   </header>
   <main class="main">
@@ -50,38 +52,41 @@
         <div class="main__image-section"></div>
       </div>
     </div>
-    <div class="categories container">
+    <div class="categories container" id="categories">
       <h2 class="categories__title">категории</h2>
       <div class="goods-preview goods-preview__indent">
-        <div class="goods-preview__item">
+        <a href="dance.html" class="goods-preview__item">
           <span class="goods-preview__product-name">танцы</span>
-          <img src="img/preview-photo-section.png" alt="background-image" class="goods-preview__product-bg" height="240"
-            width="240">
-        </div>
-        <div class="goods-preview__item">
+          <div class="goods-preview__image">
+            <img src="img/preview-photo.png" alt="Танцы" class="goods-preview__product-image" height="170" width="150">
+          </div>
+        </a>
+        <a href="gymnastics.html" class="goods-preview__item">
           <span class="goods-preview__product-name">гимнастика</span>
-          <img src="img/preview-photo-section.png" alt="background-image" class="goods-preview__product-bg" height="240"
-            width="240">
-        </div>
-        <div class="goods-preview__item">
+          <div class="goods-preview__image">
+            <img src="img/preview-photo.png" alt="Гимнастика" class="goods-preview__product-image" height="170" width="150">
+          </div>
+        </a>
+        <a href="fitness.html" class="goods-preview__item">
           <span class="goods-preview__product-name">фитнес</span>
-          <img src="img/preview-photo-section.png" alt="background-image" class="goods-preview__product-bg" height="240"
-            width="240">
-        </div>
-      </div>
-      <div class="goods-preview goods-preview_size_small goods-preview__indent">
-        <div class="goods-preview__item">
+          <div class="goods-preview__image">
+            <img src="img/preview-photo.png" alt="фитнес" class="goods-preview__product-image" height="170" width="150">
+          </div>
+        </a>
+        <a href="swimming.html" class="goods-preview__item">
           <span class="goods-preview__product-name">плавание</span>
-          <img src="img/preview-photo-section.png" alt="background-image" class="goods-preview__product-bg" height="240"
-            width="240">
-        </div>
-        <div class="goods-preview__item">
+          <div class="goods-preview__image">
+            <img src="img/preview-photo.png" alt="Плавание" class="goods-preview__product-image" height="170" width="150">
+          </div>
+        </a>
+        <a href="figure-skating.html" class="goods-preview__item">
           <span class="goods-preview__product-name">фигурное катание</span>
-          <img src="img/preview-photo-section.png" alt="background-image" class="goods-preview__product-bg" height="240"
-            width="240">
-        </div>
+          <div class="goods-preview__image">
+            <img src="img/preview-photo.png" alt="Фиигурное катание" class="goods-preview__product-image" height="170" width="150">
+          </div>
+        </a>
       </div>
-      <div class="categories container">
+      <div class="categories container" id="contacts">
         <h2 class="categories__title">как нас найти?</h2>
         <div class="categories__map"></div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.914749772026!2d27.44040907482655!3d53.86216384928859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbda61edb63151%3A0x65735028f382f7d0!2z0YPQu9C40YbQsCDQoNCw0YTQuNC10LLQsCA2NCwg0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sus!4v1549634879994" 

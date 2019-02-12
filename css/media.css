@@ -1,0 +1,221 @@
+.nav__menu {
+    display: none;
+}
+@media only screen and (max-width: 1020px) {
+  .container {
+    width: 800px;
+  }
+
+  .main__image-section {
+    width: 384px;
+  }
+  .categories__title::before {
+    transform: translate(355px, 60px);
+  }
+  
+  .categories__title::after {
+    transform: translate(370px, -5px);
+  }
+  .footer {
+    padding: 10px 0; 
+  }
+
+  .goods-preview__item {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .container {
+    width: 500px;
+  }
+
+  .main__image-section {
+    width: 384px;
+  }
+
+  .categories__title::before {
+    transform: translate(205px, 60px);
+  }
+  
+  .categories__title::after {
+    transform: translate(223px, -5px);
+  }
+
+  .footer {
+    padding: 10px 0; 
+  }
+
+  .goods-preview__item {
+    margin-right: 10px;
+  }
+  
+  .nav_hidden {
+    display: none;
+  }
+
+  .nav__menu {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 46px;
+    margin-left: 30px;
+    position: relative;
+  }
+
+  .nav__menu::before {
+    content: "";
+    position: absolute;
+    display: block;
+    transform: translateY(-9px);
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+  }
+  .nav__menu::after {
+    content: "";
+    position: absolute;
+    display: block;
+    transform: translateY(9px);
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+  }
+  .main__image-section {
+    display: none;
+  }
+  .main__info-section {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .main__signature {
+    margin-left: 0;
+  }
+  .main__discount-text {
+    padding-left: 0;
+    margin-left: 45px;
+  }
+  .nav__link-section {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .nav__link {
+    line-height: 60px;
+  }
+  .nav__logo {
+    margin-left: 30%;
+  }
+  .company-info {
+    flex-direction: column;
+  }
+  .contacts__item-mail {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .container {
+    width: 300px;
+  }
+
+  .main__image-section {
+    width: 384px;
+  }
+
+  .nav__link-section {
+    width: 300px; 
+  }
+
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .categories__title::before {
+    transform: translate(108px, 60px);
+  }
+  
+  .categories__title::after {
+    transform: translate(126px, -5px);
+  }
+
+  .footer {
+    padding: 10px 0; 
+  }
+
+  .goods-preview__item {
+    margin-right: 10px;
+  }
+  
+  .nav_hidden {
+    display: none;
+  }
+
+  .nav__menu {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 46px;
+    margin-left: 30px;
+    position: relative;
+  }
+
+  .nav__menu::before {
+    content: "";
+    position: absolute;
+    display: block;
+    transform: translateY(-9px);
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+  }
+  .nav__menu::after {
+    content: "";
+    position: absolute;
+    display: block;
+    transform: translateY(9px);
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+  }
+  .main__image-section {
+    display: none;
+  }
+  .main__info-section {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .main__signature {
+    margin-left: 0;
+  }
+  .main__discount-text {
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 90px;
+    color: #ec4040;
+  }
+
+  .main__discount-text:before {
+    background: none;
+  }
+  .nav__link-section {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .nav__link {
+    line-height: 60px;
+  }
+  .nav__logo {
+    margin-left: 30%;
+  }
+  .company-info {
+    flex-direction: column;
+  }
+  .contacts__item-mail {
+    margin: 0;
+  }
+}
