@@ -18,6 +18,7 @@
     <title>Магазин Feeriya</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="js/script.js" defer></script>
   </head>
@@ -34,22 +35,23 @@
 
     <nav class="nav container clearfix">
       <span class="nav__logo">feeriya</span>
-      <div class="nav__link-section">
-        <a href="index.html" class="nav__link">главная</a>
-        <a href="#" class="nav__link nav__link-active">категории</a>
+      <div class="nav__link-section nav_hidden">
+        <a href="index.html" class="nav__link nav__link-active">главная</a>
+        <a href="#categories" class="nav__link">категории</a>
         <a href="#" class="nav__link">распродажа</a>
-        <a href="#" class="nav__link">контакты</a>
+        <a href="#contacts" class="nav__link">контакты</a>
       </div>
+      <div class="nav__menu"></div>
     </nav>
   </header>
-  <div class="main main__container">
+  <div class="main container">
     <div class="main__section">
       <div class="options options__indent">
         <div class="options__item">
           <h2 class="options__title">одежда</h2>
-          <a href="#" class="options__text">лосины</a>
-          <a href="#" class="options__text">топы</a>
-          <a href="#" class="options__text">шорты</a>
+          <a href="#" class="options__text options__text_hidden">лосины</a>
+          <a href="#" class="options__text options__text_hidden">топы</a>
+          <a href="#" class="options__text options__text_hidden">шорты</a>
         </div>
       </div>
       <div class="goods goods__indent">
