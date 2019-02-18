@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/media.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="js/goods.js" defer></script>
   <script src="js/script.js" defer></script>
 </head>
 
@@ -28,7 +29,7 @@
       <div class="nav__link-section nav_hidden">
         <a href="index.html" class="nav__link">главная</a>
         <a href="#categories" class="nav__link nav__link-active">категории</a>
-        <a href="#" class="nav__link">распродажа</a>
+        <a href="sell-out.html" class="nav__link">распродажа</a>
         <a href="#contacts" class="nav__link">контакты</a>
       </div>
       <div class="nav__menu"></div>
@@ -39,93 +40,34 @@
       <div class="options options__indent">
         <div class="options__item">
           <h2 class="options__title">одежда</h2>
-          <a href="#" class="options__text options__text_hidden">термо белье</a>
-          <a href="#" class="options__text options__text_hidden">термо лосины</a>
-          <a href="#" class="options__text options__text_hidden">олимпийки</a>
-          <a href="#" class="options__text options__text_hidden">колготки</a>
-          <a href="#" class="options__text options__text_hidden">чехлы на коньки</a>
-          <a href="#" class="options__text options__text_hidden">повязки на голову</a>
-          <a href="#" class="options__text options__text_hidden">термо перчатки</a>
+          <span class="options__text options__text_hidden" data-name-section="bele">термо белье</span>
+          <span class="options__text options__text_hidden" data-name-section="termo-losini">термо лосины</span>
+          <span class="options__text options__text_hidden" data-name-section="olimpiki">олимпийки</span>
+          <span class="options__text options__text_hidden" data-name-section="kolgotki">колготки</span>
+          <span class="options__text options__text_hidden" data-name-section="chehli">чехлы на коньки</span>
+          <span class="options__text options__text_hidden" data-name-section="povyazki">повязки на голову</span>
+          <span class="options__text options__text_hidden" data-name-section="perchatki">термо перчатки</span>
         </div>
       </div>
       <div class="goods goods__indent">
         <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
-        </div>
-        <div class="goods__item">
-          <a href="#" class="goods__image">
-            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-          </a>
-          <span class="goods__description">платье "рысь"</span>
+          <div class="goods__item goods__item_example">
+            <a href="#" class="goods__image">
+              <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
+            </a>
+            <span class="goods__description">платье "рысь"</span>
+          </div>
+          <script>
+            window.onload = () => {
+              window.constructorGoods('bele');
+            }  
+          </script>
         </div>
       </div>
     </div>
   </div>
 
-  <footer class="footer">
+  <footer class="footer" id="contacts">
     <div class="company-info container">
       <div class="company-info__item">
         <h2 class="company-info__title">наш адрес</h2>

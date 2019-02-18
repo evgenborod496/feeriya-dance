@@ -253,29 +253,48 @@ body {
 .contacts_disposition_middle {
   margin-right: 40px;
 }
-
+.categories {
+  position: relative;
+}
 .categories__map {
   background: url('../img/map.jpg') no-repeat center;
   height: 288px;
   width: 542px;
   cursor: pointer;
   margin: 0 auto;
-  margin-bottom: 90px;
   border: 5px solid #ec4040;
   border-radius: 20px;
 }
 
 .iframe-map {
-  position: fixed;
-  display: none;
+  position: absolute; 
+  width: 100vw;
   top: 50%;
-  left: 50%;
+  left: 50%; 
   transform: translate(-50%, -50%);
+  z-index: 5;
+}
+.container-map::after {
+  content: '';
+  display: block;
+  height: 450px;
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  border-top: 2px solid #cc0000;
+  border-bottom: 2px solid #cc0000;
+  z-index: 0;;
+}
+.container-map {
+  width: 100%;
+  height: 450px;
+  position: relative;
 }
 .show {
   display: block !important;
 }
-
 .options {
   display: flex;
   border-top: 2px solid #000000;
@@ -283,7 +302,10 @@ body {
   justify-content: space-around;
   padding: 20px 0;
 }
-
+.main {
+  overflow: hidden;
+  position: relative;
+}
 .main__container {
   margin: 0 auto;
   width: 1200px;
@@ -349,4 +371,17 @@ body {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
+}
+.goods__item_example {
+  display: none;
+}
+.main-iframe {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  display: block;
+}
+
+.goods__description-sale {
+  color: #ec4040;
 }
