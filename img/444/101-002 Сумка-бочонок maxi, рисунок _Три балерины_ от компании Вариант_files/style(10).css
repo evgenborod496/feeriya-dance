@@ -1,0 +1,27 @@
+.tm-menu {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+.tm-menu li:first-child {
+	margin-left: 0;
+}
+.tm-menu li {
+	margin-left: 22px;
+	display: inline-block;
+	float: left;
+	font-family: 'FedraSansPro-Normal';
+	font-size: 18px;
+}
+.tm-menu li a {
+	color: #884022 !important;
+	text-decoration: none !important;
+	text-transform: uppercase;
+}
+.tm-menu li a:hover {
+	opacity: 0.8;
+}
+
+
+

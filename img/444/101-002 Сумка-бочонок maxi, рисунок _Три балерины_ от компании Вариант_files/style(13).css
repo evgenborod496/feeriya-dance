@@ -1,0 +1,17 @@
+.breadcrumb_block {
+	color: #727272;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 9px;
+}
+.bx-breadcrumb-item {
+	display: inline-block;
+}
+.breadcrumb_block a {
+	color: #727272 !important;
+	text-decoration: none !important;
+}
+.breadcrumb_block a:hover {
+	color: #50281e !important;
+}

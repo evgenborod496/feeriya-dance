@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    var mql = window.matchMedia('all and (max-width: 1024px)');
+    if (mql.matches) {
+        if($("body").is(".class_page_about ")){
+            $('.workarea .bx-content').html(function(i,h){
+                return h.replace(/&nbsp;/g,'');
+            });
+        }
+    } else {
+
+    }
+});

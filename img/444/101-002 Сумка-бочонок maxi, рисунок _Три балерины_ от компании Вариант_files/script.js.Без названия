@@ -1,0 +1,47 @@
+$(document).ready(function(){
+	
+	$('.checkbox_dop').click(function(){
+		if($(this).find('.fa-check-square-o').hasClass('hidden')){
+			$(this).find('input').click();
+			$(this).find('.fa-check-square-o').removeClass('hidden');
+			$(this).find('.fa-square-o').addClass('hidden');
+		}else{
+			$(this).find('input').click();
+			$(this).find('.fa-check-square-o').addClass('hidden');
+			$(this).find('.fa-square-o').removeClass('hidden');
+		}
+	});
+	
+	$('.psevdo_check').click(function(){
+		if($(this).find('.fa-check').hasClass('hidden')){
+			$(this).find('input').click();
+			$(this).find('.fa-check').removeClass('hidden');
+		}else{
+			$(this).find('input').click();
+			$(this).find('.fa-check').addClass('hidden');
+		}
+	});
+	
+	$(window).scroll(function () {
+		if($(this).scrollTop() > 300) {
+			$('#scroller_b_top').fadeIn();
+		}else{
+			$('#scroller_b_top').fadeOut();
+		};
+	});
+	$('#scroller_b_top').click(function () {
+		$('body,html').animate({scrollTop: 0}, 500);
+		return false;
+	});
+
+	$("#slider12").swiperight(function() {  
+		$("#slider12").carousel('prev');  
+	});
+	$("#slider12").swipeleft(function() {  
+		$("#slider12").carousel('next');  
+	});
+	$(".fancy_a").fancybox();
+});
+
+$(window).resize(function(){
+});

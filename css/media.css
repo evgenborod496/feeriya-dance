@@ -1,7 +1,7 @@
 .nav__menu {
     display: none;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1040px) {
   .container {
     width: 800px;
   }

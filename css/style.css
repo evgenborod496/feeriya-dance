@@ -189,10 +189,16 @@ body {
   margin-right: 40px;
 }
 
+.goods-preview__item:nth-child(3),
+.goods-preview__item:nth-child(5) {
+  margin-right: 0; 
+}
+
 .goods-preview__product-name {
   text-align: center;
   text-transform: uppercase;
   display: block;
+  font-size: 20px;
   color: #000000;
   margin-bottom: 35px;
 }
@@ -203,13 +209,18 @@ body {
 
 .goods-preview__product-image {
   margin-top: 21px;
-  margin-left: 32px;
+  margin-left: 59px;
+}
+
+.goods-preview_skating {
+  margin-top: 33px;
+  margin-left: 45px;;
 }
 
 .goods-preview__image {
   background: url('../img/preview-photo-section.png') no-repeat center;
-  height: 220px;
-  width: 220px;
+  height: 290px;
+  width: 290px;
   margin-bottom: 40px;
   background-size: contain;
 }
@@ -339,6 +350,7 @@ body {
 
 .options__text:hover {
   color: #ec4343;
+  cursor: pointer;
 }
 
 .goods__item {
