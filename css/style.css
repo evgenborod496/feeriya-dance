@@ -34,7 +34,7 @@ body {
   text-decoration: none;
 }
 
-.contacts__item:hover:not(:first-child) {
+.contacts__item-insta:hover {
   color: #ffffff;
 }
 
@@ -84,6 +84,20 @@ body {
 .nav__link-active,
 .nav__link:hover {
   color: #ec4040;
+}
+
+.nav_categories {
+  position: relative;
+}
+
+.nav_categories::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 1000px;
+  left: -235px;
+  top: 93px;
+  background-color: #000000;
 }
 
 .main__preview {
@@ -338,6 +352,10 @@ body {
   margin-bottom: 25px;
 }
 
+.options__title_center {
+  text-align: center;
+}
+
 .options__text {
   display: table;
   text-decoration: none;
@@ -348,9 +366,17 @@ body {
   line-height: 24px;
 }
 
+.options__text_active {
+  color: #ec4343;
+}
+
 .options__text:hover {
   color: #ec4343;
   cursor: pointer;
+}
+
+.options_contacts {
+  border-bottom: none;
 }
 
 .goods__item {

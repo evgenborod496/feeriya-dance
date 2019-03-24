@@ -1,6 +1,8 @@
 var menu = document.querySelector(".nav__menu");
+var logo = document.querySelector("nav__logo");
 var nav = document.querySelector(".nav__link-section");
 var options = document.querySelectorAll(".options__item");
+let link = document.querySelectorAll(".options__text");
 
 menu.addEventListener('click', function () {
   if (nav.classList.contains("nav_hidden"))
@@ -30,10 +32,25 @@ for (var j = 0; j < options.length; j++) {
   })
 }
 
+for (var j = 0; j < link.length; j++) {
+  link[j].addEventListener('click', function (e) {
+    var z;
+    for (z = 0; z < link.length; z++) {
+      if (link[z] == e.currentTarget) {
+        break;
+      }
+    }
+    for (var i = 0; i < link.length; i++) {
+    if (link[i].classList.contains("options__text_active")) {
+        link[i].classList.remove("options__text_active");
+      }
+    } 
+    link[z].classList.add("options__text_active");
+  })
+}
 
 // CONSTRUCTOR ITEMS 
-
-;(() => {
+(() => {
   let goodsIndent = document.querySelector('.goods__indent');
   let optionsText = document.querySelectorAll('.options__text');
   optionsText = Array.from(optionsText);
