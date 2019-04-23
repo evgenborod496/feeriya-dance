@@ -2,95 +2,102 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Магазин Feeriya</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/media.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <script src="js/goods.js"></script>
-  <script src="js/script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Фитнес. Магазин Feeriya</title>
+    <link rel="shortcut icon" href="img/letter-f.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="js/goods.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
-  <header class="header">
-    <div class="header-top">
-      <div class="contacts container">
-        <span class="contacts__item contacts__item-phone">+375 (44) 512 - 17 - 61</span>
-        <span class="contacts__item contacts__item-mail">feeriyadance76@gmail.com</span>
-        <a href="https://www.instagram.com/feeriya_dance_/?utm_source=ig_profile_share&igshid=1infjveeispbm" class="contacts__item contacts__item-insta">instagram</a>
-      </div>
+    <header class="header">
+        <div class="header-top">
+            <div class="contacts container">
+                <span class="contacts__item contacts__item-phone">+375 (44) 512 - 17 - 61</span>
+                <span class="contacts__item contacts__item-mail">feeriyadance76@gmail.com</span>
+                <a href="https://www.instagram.com/feeriya_dance_/?utm_source=ig_profile_share&igshid=1infjveeispbm" class="contacts__item contacts__item-insta">instagram</a>
+            </div>
+        </div>
+
+        <nav class="nav container clearfix">
+            <a href="index.html" class="nav__logo">feeriya</a>
+            <div class="nav__link-section nav_hidden">
+                <a href="index.html" class="nav__link">главная</a>
+                <a href="categories.html" class="nav__link nav__link-active">категории</a>
+                <a href="contacts.html" class="nav__link">контакты</a>
+            </div>
+            <div class="header__menu header__menu_hidden">
+                <a href="dance.html" class="header__menu-item">танцы</a>
+                <a href="gymnastics.html" class="header__menu-item">гимнастика</a>
+                <a href="fitness.html" class="header__menu-item">фитнес</a>
+                <a href="swimming.html" class="header__menu-item">плавание</a>
+                <a href="figure-skating.html" class="header__menu-item">фигурное катание</a>
+            </div>
+            <div class="nav__menu"></div>
+        </nav>
+    </header>
+    <div class="main container">
+        <div class="main__section">
+            <div class="options options__indent">
+                <div class="options__item">
+
+                    <h2 class="options__title">одежда</h2>
+                    <span class="options__text options__text_hidden" data-name-section="losini">лосины</span>
+                    <span class="options__text options__text_hidden" data-name-section="triko">трико</span>
+                    <span class="options__text options__text_hidden" data-name-section="shorts">шорты</span>
+                </div>
+            </div>
+            <div class="goods goods__indent">
+                <div class="goods__item">
+                    <div class="goods__item goods__item_example">
+                        <a href="#" class="goods__image">
+                            <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
+                        </a>
+                        <span class="goods__description">платье "рысь"</span>
+                    </div>
+                    <script>
+                        window.onload = () => {
+                            window.constructorGoods('shorts');
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <nav class="nav container clearfix">
-      <span class="nav__logo">feeriya</span>
-      <div class="nav__link-section nav_hidden">
-        <a href="index.html" class="nav__link">главная</a>
-        <a href="categories.html" class="nav__link nav__link-active">категории</a>
-        <a href="contacts.html" class="nav__link">контакты</a>
-      </div>
-      <div class="nav__menu"></div>
-    </nav>
-  </header>
-  <div class="main container">
-    <div class="main__section">
-      <div class="options options__indent">
-        <div class="options__item">
-          <h2 class="options__title">одежда</h2>
-          <span class="options__text options__text_hidden" data-name-section="losini">лосины</span>
-          <span class="options__text options__text_hidden" data-name-section="triko">трико</span>
-          <span class="options__text options__text_hidden" data-name-section="shorts">шорты</span>
+    <footer class="footer" id="contacts">
+        <div class="company-info container">
+            <div class="company-info__item">
+                <h2 class="company-info__title">наш адрес</h2>
+                <p class="company-info__paragraph">
+                    ул. Рафиева 64, 2 эт. пав. 16 <br> магазин "Рублевский"
+                </p>
+            </div>
+            <div class="company-info__item">
+                <h2 class="company-info__title">доставка</h2>
+                <p class="company-info__paragraph">
+                    почтой по всей Беларуси
+                </p>
+            </div>
+            <div class="company-info__item">
+                <h2 class="company-info__title">время работы</h2>
+                <p class="company-info__paragraph">
+                    понедельник - воскресенье <br> 10:00 - 20:00
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="goods goods__indent">
-        <div class="goods__item">
-          <div class="goods__item goods__item_example">
-            <a href="#" class="goods__image">
-              <img src="img/test2.jpg" alt="product" class="goods__image-photo" height="294" width="196">
-            </a>
-            <span class="goods__description">платье "рысь"</span>
-          </div>
-          <script>
-            window.onload = () => {
-              window.constructorGoods('shorts');
-            }  
-          </script>
+        <div class="contacts container contacts__footer-contacts">
+            <span class="contacts__item contacts__item-phone">+375 (44) 512 - 17 - 61</span>
+            <span class="contacts__item contacts__item-mail contacts_disposition_middle">feeriyadance76@gmail.com</span>
+            <a href="https://www.instagram.com/feeriya_dance_/?utm_source=ig_profile_share&igshid=1infjveeispbm" class="contacts__item contacts__item-insta contacts_disposition_middle">instagram</a>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer" id="contacts">
-    <div class="company-info container">
-      <div class="company-info__item">
-        <h2 class="company-info__title">наш адрес</h2>
-        <p class="company-info__paragraph">
-          ул. Рафиева 64, 2 эт. пав. 16 <br>
-          магазин "Рублевский"
-        </p>
-      </div>
-      <div class="company-info__item">
-        <h2 class="company-info__title">доставка</h2>
-        <p class="company-info__paragraph">
-          почтой по всей Беларуси
-        </p>
-      </div>
-      <div class="company-info__item">
-        <h2 class="company-info__title">время работы</h2>
-        <p class="company-info__paragraph">
-          понедельник - воскресенье <br>
-          10:00 - 20:00
-        </p>
-      </div>
-    </div>
-    <div class="contacts container contacts__footer-contacts">
-      <span class="contacts__item contacts__item-phone">+375 (44) 512 - 17 - 61</span>
-      <span class="contacts__item contacts__item-mail contacts_disposition_middle">feeriyadance76@gmail.com</span>
-      <a href="https://www.instagram.com/feeriya_dance_/?utm_source=ig_profile_share&igshid=1infjveeispbm" class="contacts__item contacts__item-insta contacts_disposition_middle">instagram</a>
-    </div>
-  </footer>
+    </footer>
 </body>
 
 </html>
