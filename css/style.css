@@ -104,8 +104,8 @@ body {
 .header__menu {
     position: absolute;
     top: 100px;
-    left: 682px;
-    z-index: 2;
+    left: 45.3%;
+    z-index: 3;
 }
 
 .header__menu_hidden {
@@ -130,12 +130,13 @@ body {
 }
 
 .main__preview {
-    background-color: #272727
+    background-color: #272727;
 }
 
 .main__company-info {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    position: relative;
 }
 
 .main__info-section {
@@ -461,4 +462,23 @@ body {
 
 .goods__description-sale {
     color: #ec4040
+}
+
+.active {
+    color: #ec4343;
+}
+
+.popup {
+    height: 70vh;
+    width: 850px;
+    background: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 23.4%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.popup_hidden {
+    display: none;
 }

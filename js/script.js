@@ -81,6 +81,12 @@ for (var j = 0; j < link.length; j++) {
         item.querySelector('.goods__image').setAttribute('src', options.linkSrc);
         item.querySelector('.goods__description').innerHTML = options.description;
 
+        for (let i = 0; i < item.querySelectorAll('.goods__image').length; i++) {
+            item.querySelectorAll('.goods__image')[i].addEventListener('click', e => {
+                e.preventDefault();
+            });
+        }
+
         goodsIndent.appendChild(item);
 
     }
@@ -100,7 +106,7 @@ for (var j = 0; j < link.length; j++) {
 let menuItem = document.querySelectorAll('.nav__link');
 let mainMenu = document.querySelector('.header__menu');
 
-for (let i = 0; i < menuItem.length; i++) {
+for (let i = 0; i < menuItem.length - 1; i++) {
     if (menuItem[i].textContent == 'категории' || mainMenu.onmouseover) {
         menuItem[i].onmouseover = function() {
             document.querySelector('.header__menu_hidden').style.display = 'block';

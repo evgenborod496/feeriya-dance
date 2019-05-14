@@ -88,6 +88,50 @@ let allGoods = [{
         ]
     },
     {
+        nameCategory: 'g-training-clothes',
+        goods: [{
+                photoSrc: 'img/dance/for-girls/training-clothes/fdghfgg34eedtt.png',
+                linkSrc: '#',
+                description: 'Купальник и юбка <br> размеры: 28 - 40'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/training-clothes/fk65tyj6gk.png',
+                linkSrc: '#',
+                description: 'Топ и юбка <br> размеры: 28 - 40'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/training-clothes/g543erdfg34ertdgkk.png',
+                linkSrc: '#',
+                description: 'Топ и юбка <br> размеры: 28 - 40'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/training-clothes/h657643df43kk1.png',
+                linkSrc: '#',
+                description: 'Купальник и юбка <br> размеры: 28 - 40'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/training-clothes/jht6u5tgv.png',
+                linkSrc: '#',
+                description: 'Топ и юбка <br> размеры: 28 - 40'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/training-clothes/k7656ryujgvl.png',
+                linkSrc: '#',
+                description: 'Купальник и юбка <br> размеры: 28 - 40'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/training-clothes/rrg34et34er.png',
+                linkSrc: '#',
+                description: 'Топ и юбка <br> размеры: 28 - 40'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/training-clothes/westt34rthrtft.png',
+                linkSrc: '#',
+                description: 'Топ и юбка <br> размеры: 28 - 40'
+            }
+        ]
+    },
+    {
         nameCategory: 'b-shirts',
         goods: [{
             photoSrc: 'img/dance/for-boys/shirts/r_55_331_bel_bk9q0616-200x300-removebg.png',
@@ -116,6 +160,14 @@ let allGoods = [{
                 description: 'Мяч гимнастический, 15см, 19см, с блезком, без блезка'
             }
         ]
+    }, ,
+    {
+        nameCategory: 'bags',
+        goods: [{
+            photoSrc: 'img/dance/accessories/bags/sgh43wesdf.png',
+            linkSrc: '#',
+            description: 'сумка-косметичка'
+        }]
     },
     {
         nameCategory: 'knee-pads',
@@ -235,6 +287,11 @@ let allGoods = [{
     {
         nameCategory: 'expander-loop',
         goods: [{
+                photoSrc: 'img/gymnastics/accessories/expander-loop/dt4erdged.png',
+                linkSrc: '#',
+                description: 'Эспандер с петлями'
+            },
+            {
                 photoSrc: 'img/gymnastics/accessories/expander-loop/11368_ (3)-200x300.png',
                 linkSrc: '#',
                 description: 'Эспандер-петля'
@@ -357,6 +414,56 @@ let allGoods = [{
     {
         nameCategory: 'g-swimmwear',
         goods: [{
+                photoSrc: 'img/swimming/for-girls/swimwear/56381736_602053483630877_4308436745764409538_n.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 34 - 42'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/fdgersdg43ertdg.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 34 - 42'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/grdf34erdfg.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 34 - 42'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/jkh34kjhk43dsg.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> рост: 98 - 158'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/sdf43erdhf3es.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 36 - 44'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/sdg34erdfhj.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 36 - 44'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/sgh43erfhjkty54sf.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> рост: 98 - 122'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/srfhd4rtujtf43sf.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 36 - 44'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/sy34erdfhdg.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 36 - 44'
+            },
+            {
+                photoSrc: 'img/swimming/for-girls/swimwear/wsg43erdfh.png',
+                linkSrc: '#',
+                description: 'Купальник для плавания <br> размерыы: 36 - 44'
+            },
+            {
                 photoSrc: 'img/swimming/for-girls/swimwear/k_40_012_BK9Q3269_cvet_1-500x750.png',
                 linkSrc: '#',
                 description: 'Купальник для плавания'
@@ -405,7 +512,7 @@ let allGoods = [{
                 photoSrc: 'img/swimming/for-girls/swimwear/k_48_011_fiolet50008_BK9Q3419-200x300.png',
                 linkSrc: '#',
                 description: 'Купальник для плавания'
-            }, ,
+            },
             {
                 photoSrc: 'img/swimming/for-girls/swimwear/k40_014_1828_BK9Q0634-500x750.png',
                 linkSrc: '#',
@@ -423,13 +530,13 @@ let allGoods = [{
         goods: [{
             photoSrc: 'img/swimming/for-girls/glasses/06131-200x300.png',
             linkSrc: '#',
-            description: 'Очки для плавания (бируши в подарок)'
+            description: 'Очки для плавания (беруши в подарок)'
         }]
     },
     {
         nameCategory: 'shoes-accessories',
         goods: [{
-                photoSrc: 'img/dance/accessories/for-shoes/sdffd7dg97d9fg7d9f.png',
+                photoSrc: 'img/dance/accessories/for-shoes/jkh34kjh4.png',
                 linkSrc: '#',
                 description: 'Накаблучники для туфлей'
             },
@@ -478,6 +585,14 @@ let allGoods = [{
                 description: 'Расческа для укладки прически'
             }
         ]
+    },
+    {
+        nameCategory: 'g-knee-pads',
+        goods: [{
+            photoSrc: 'img/dance/for-girls/knee-pads/fdtdfh34efg.png',
+            linkSrc: '#',
+            description: 'наколенники'
+        }]
     },
     {
         nameCategory: 'g-tights',
@@ -539,28 +654,45 @@ let allGoods = [{
                 photoSrc: 'img/dance/accessories/cosmetics/drg45etdg4er.png',
                 linkSrc: '#',
                 description: 'Автозагар Протан'
+            },
+            {
+                photoSrc: 'img/dance/accessories/cosmetics/kjh43kjhr.png',
+                linkSrc: '#',
+                description: 'нескользит - средство против скольжения'
             }
         ]
     },
     {
         nameCategory: 'false-eyelashes',
         goods: [{
-            photoSrc: 'img/dance/accessories/false-eyelashes/sdfgb54eryhh54re.png',
-            linkSrc: '#',
-            description: 'Ресницы накладные'
-        }]
+                photoSrc: 'img/dance/accessories/false-eyelashes/sdfgb54eryhh54re.png',
+                linkSrc: '#',
+                description: 'Ресницы накладные'
+            },
+            {
+                photoSrc: 'img/dance/accessories/false-eyelashes/ddfxg34sdf.png',
+                linkSrc: '#',
+                description: 'Ресницы накладные'
+            }
+        ]
     },
     {
         nameCategory: 'g-dresses',
         goods: [{
-            photoSrc: 'img/dance/for-girls/dresses/r_33_051_morsk_7159__3516_-200x300-removebg.png',
-            linkSrc: '#',
-            description: 'Платье спортивное. Арт.: P 2.9 полиамид 80%, эластан 20%, под заказ любой цвет'
-        }, {
-            photoSrc: 'img/dance/for-girls/dresses/r_35_051_malin_3181__3829_-200x300-removebg.png',
-            linkSrc: '#',
-            description: 'Платье спортивное. Арт.: P 2.9 полиамид 80%, эластан 20%, под заказ любой цвет'
-        }]
+                photoSrc: 'img/dance/for-girls/dresses/r_33_051_morsk_7159__3516_-200x300-removebg.png',
+                linkSrc: '#',
+                description: 'Платье спортивное. Арт.: P 2.9 полиамид 80%, эластан 20%, под заказ любой цвет'
+            }, {
+                photoSrc: 'img/dance/for-girls/dresses/r_35_051_malin_3181__3829_-200x300-removebg.png',
+                linkSrc: '#',
+                description: 'Платье спортивное. Арт.: P 2.9 полиамид 80%, эластан 20%, под заказ любой цвет'
+            },
+            {
+                photoSrc: 'img/dance/for-girls/dresses/dfg34ertdf.png',
+                linkSrc: '#',
+                description: 'Платье спортивное. <br> состав: полиамид/эластан <br> размеры: 28 - 42 <br> Цвет : мраморная фуксия, мраморный синий мраморный изумруд'
+            }
+        ]
     },
     {
         nameCategory: 'g-shoes',
