@@ -713,6 +713,89 @@ let allGoods = [{
             linkSrc: '#',
             description: 'Туфли латина, кожа, сатин'
         }]
+    },
+    {
+        nameCategory: 'f-top-bra',
+        goods: [{
+                photoSrc: 'img/fitness/top-bra/rtfgr65ythf.png',
+                linkSrc: '#',
+                description: 'топ бра'
+            },
+            {
+                photoSrc: 'img/fitness/top-bra/rtfgr65ythf.png',
+                linkSrc: '#',
+                description: 'топ бра'
+            },
+            {
+                photoSrc: 'img/fitness/top-bra/rtfgr65ythf.png',
+                linkSrc: '#',
+                description: 'топ бра'
+            },
+            {
+                photoSrc: 'img/fitness/top-bra/rtfgr65ythf.png',
+                linkSrc: '#',
+                description: 'топ бра'
+            }
+        ]
+    },
+    {
+        nameCategory: 'long-sleeve',
+        goods: [{
+                photoSrc: 'img/fitness/long sleeve/dgrh54grdf.png',
+                linkSrc: '#',
+                description: 'Лонг слив <br>Размеры: 42 - 46'
+            },
+            {
+                photoSrc: 'img/fitness/long sleeve/fsfgh54rtfd.png',
+                linkSrc: '#',
+                description: 'Лонг слив <br>Размеры: 42 - 46'
+            },
+            {
+                photoSrc: 'img/fitness/long sleeve/hfgj6trhfg.png',
+                linkSrc: '#',
+                description: 'лонг слив <br>Размеры: 42 - 46'
+            },
+            {
+                photoSrc: 'img/fitness/long sleeve/hgl7654etf.png',
+                linkSrc: '#',
+                description: 'лонг слив и легинсы <br>Размеры: 42 - 46'
+            }
+        ]
+    },
+    {
+        nameCategory: 'top',
+        goods: [{
+                photoSrc: 'img/fitness/top/gdh45rtfgpng.png',
+                linkSrc: '#',
+                description: 'топ <br>Размеры: 42 - 46'
+            },
+            {
+                photoSrc: 'img/fitness/top/bgfh45rtfg.png',
+                linkSrc: '#',
+                description: 'топ <br>Размеры: 42 - 46'
+            },
+            {
+                photoSrc: 'img/fitness/top/grtfgu45rdgfc.png',
+                linkSrc: '#',
+                description: 'топ <br>Размеры: 42 - 46'
+            }
+        ]
+    },
+    {
+        nameCategory: 'leggings',
+        goods: [{
+            photoSrc: 'img/fitness/leggings/hgl7654etf.png',
+            linkSrc: '#',
+            description: 'лонг слив и легинсы <br>Размеры: 42 - 46'
+        }]
+    },
+    {
+        nameCategory: 'f-shorts',
+        goods: [{
+            photoSrc: 'img/fitness/shorts/gdb4rtdfhb.png',
+            linkSrc: '#',
+            description: 'шорты <br>Размеры: 42 - 46 <br>Цвет : розовый, камуфляж (серый)'
+        }]
     }
 ];
 

@@ -227,6 +227,10 @@ body {
     margin: 0 auto
 }
 
+.goods-preview__indent {
+    margin-top: 65px;
+}
+
 .goods-preview__item {
     text-decoration: none;
     margin-bottom: 20px;
@@ -242,7 +246,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     color: #000;
     margin-bottom: 35px
 }
@@ -364,9 +369,13 @@ body {
     padding: 20px 0
 }
 
+.categories__options {
+    border-bottom: 0;
+    padding: 0;
+}
+
 .main {
     overflow: hidden;
-    position: relative
 }
 
 .main__container {
@@ -468,17 +477,38 @@ body {
     color: #ec4343;
 }
 
+
+/* 
 .popup {
-    height: 70vh;
-    width: 850px;
+    height: 80%;
+    width: 75%;
     background: #ffffff;
-    position: absolute;
+    position: fixed;
     left: 50%;
-    top: 23.4%;
+    top: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .popup_hidden {
     display: none;
 }
+
+.popup__cross {
+    height: 34px;
+    width: 34px;
+    background: url('../img/multiply.png') no-repeat center;
+    background-size: 60%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.popup__left-bar {
+    background: green;
+}
+
+.popup__right-bar {
+    background: red;
+} */
